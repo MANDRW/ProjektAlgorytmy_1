@@ -45,15 +45,16 @@ float avg(Box A, int size){
 }*/
 
 int main() {
+    //czas byl mierzony poprzez zakomentowywowanie i odkomentowywanie konkretnych linijek kodu oraz przez zmiany nazw obiektow
     fstream file;
     Sorter sorting;
 
     Box tenT(10000);
-    Box oneH(100000);
-    Box fiveH(500000);
-    Box all;//962903
+    //Box oneH(100000);
+    //Box fiveH(500000);
+    //Box all;//962903
 
-    //czas byl mierzony poprzez zakomentowywowanie i odkomentowywanie konkretnych linijek kodu oraz przez zmiany nazw obiektow
+
     //clock_t start=clock();
     tenT.download(file,10000);
     //oneH.download(file,100000);
